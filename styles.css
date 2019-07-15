@@ -1,0 +1,55 @@
+* {
+
+  padding: 0px;
+  margin: 0px;
+  box-shadow: border-box;
+
+}
+
+body {
+  background-color: #ff1493;
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  padding: 40px;
+  color: white;
+  font-family: 'Sniglet', cursive;
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: 'Sniglet', cursive;
+}
+
+button{
+  padding: 20px;
+  margin: 25px;
+  font-size: 15px;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  font-family: 'Sniglet', cursive;
+  background-color: #956bff;
+}
+
+button:hover{
+  background-color:#755ab8;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.buttons{
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
